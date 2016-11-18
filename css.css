@@ -11,12 +11,21 @@ body{
 	width: 40px;
 	top: 20px;
 }
-ul{
-	float: right;
+/*ul{
+	padding: 0px;
 
+	
 }
 li{
-	float: left;
+
+	display: inline;
+}*/
+.link{
+	text-align: right;
 }
-	
+li{
+	display: inline;
+}
+.article{
+	background: 
 }
