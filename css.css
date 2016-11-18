@@ -1,0 +1,22 @@
+body{
+	margin: 0px;
+	background: grey;
+}
+.title{
+	background: #B3C3D2;
+	height: 60px;
+}
+.eux-logo{
+	height: 20px;
+	width: 40px;
+	top: 20px;
+}
+ul{
+	float: right;
+
+}
+li{
+	float: left;
+}
+	
+}
