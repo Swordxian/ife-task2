@@ -3,29 +3,45 @@ body{
 	background: grey;
 }
 .title{
-	background: #B3C3D2;
+	background: #333333;
 	height: 60px;
 }
-.eux-logo{
-	height: 20px;
-	width: 40px;
+.title .eux-logo{
+	padding-left: 50px;
+	padding-top: 10px;
+	height: 40px;
+	width: 100px;
 	top: 20px;
 }
-/*ul{
-	padding: 0px;
 
-	
-}
-li{
-
-	display: inline;
-}*/
-.link{
+.title .link ul{
+	list-style-type: none;
 	text-align: right;
+	height: 50px;
+	margin-top: -30px;
+	margin-right: 20px;
 }
-li{
+.link li{
+	
 	display: inline;
 }
-.article{
-	background: 
+.link a{
+	color: white;
+}
+.link2 ul{
+	list-style-type: none;
+}
+.passage{
+	background-color: white;
+	margin: 20px auto;
+	
+	width: 90%;
+	padding:15px;
+	font-family: 'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial;
+}
+div.passage div#picture{
+	border: 1px solid;
+	margin: 10px;
+	height: 50px;
+	width: 40px;
 }
