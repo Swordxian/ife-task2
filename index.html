@@ -22,8 +22,8 @@
 	<div class="passagebody">
 		<div class="passage">
 			<h2>文章一级标题</h2>
-			<h2>文章一级标题</h2>
-			文章作者；&nbsp;&nbsp;发表时间
+			<h3>文章二级标题</h3>
+			<p class="passageauthur">文章作者；&nbsp;&nbsp;发表时间</p>
 			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落<br>
 			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接百度前端学院</a><br>
 			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>
@@ -32,9 +32,9 @@
 		</div>
 		<!--end passage-->
 		<div class="passage">
-			<h1>另一篇文章一级标题</h1>
-			<h2>文章二级标题</h2>
-			文章作者&nbsp;&nbsp;文章发表时间
+			<h2>另一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="passageauthur">文章作者&nbsp;&nbsp;文章发表时间</p>
 			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，很长的段落，的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段。</p>
 			<img src="./images/picture.png" alt="加载中">
 			<div class="link2">
@@ -76,16 +76,16 @@
 	<!--END passage-->
 
 	<div class="passage">
-		<h1>最后一篇文章一级标题</h1>
-		<h2>文章二级标题</h2>
-		文章作者&nbsp;&nbsp;文章发表时间
+		<h2>最后一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<p class="passageauthur">文章作者&nbsp;&nbsp;文章发表时间</p>
 		<ol>
 			<li>排名1</li>
 			<li>排名2</li>
 			<li>排名3</li>
 		</ol>
-		下面是一个表格，给表格加了一个border
-		<table border="1px">
+		<p>下面是一个表格，给表格加了一个border</p>
+		<table >
 			<tbody>
 				<tr>
 					<th>表头</th>
@@ -113,9 +113,9 @@
 					<td>表内容单员格</td>
 					<td><a href="#">操作</a></td>
 				</tr>
-				<tr>
+				<tr class="summary">
 					<td>总计</td>
-					<td>1000</td>
+					<td colspan="2">1000</td>
 					
 				</tr>
 			</tbody>
@@ -127,8 +127,8 @@
 	<div class="passage">
 	<!--侧边栏-->
 		<div id="sidebar">
+			<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 			<div class="sidebar-content">
-				<h2>侧栏注册窗口标题</h2>
 				<form action="#" method="">
 					<div class="inp">
 						<label for="email">请输入邮箱地址：</label>
@@ -162,10 +162,15 @@
 							<input type="checkbox" name="yishu"  value="yishu">
 						<label for="scisence">科学</label>
 							<input type="checkbox" name="scisence"	value="kexue">
-						<label for="miaoshu">个人描述</label>
-							<input type="text" name="miaoshu" placeholder="请输入描述">
-							<input type="submit" name="tijiao" placeholder="确认提交">
+							
 					</div>
+					<div class="inp">
+						<label for="miaoshu">个人描述</label>
+								<textarea name="despristion" rows="4" cols="30">这是一个多行输入框，请输入你的个人描述</textarea>
+					</div>
+					<div class="submit">
+						<input type="submit" name="tijiao" placeholder="确认提交">
+					</div>	
 					
 				</form>
 			</div>

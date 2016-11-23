@@ -34,14 +34,86 @@ body{
 .passage{
 	background-color: white;
 	margin: 20px auto;
-	
 	width: 90%;
 	padding:15px;
 	font-family: 'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial;
 }
-div.passage div#picture{
+.passagebody h2{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	font-size: 26px;
+	font-weight: 600;
+}
+.passagebody h3{
+	color: #878586;
+	text-align: left;
+	font-family: "黑体";
+	line-height:20px;
+	font-size: 18px;
+}
+.passagebody p.passageauthur{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+}
+.passagebody p{
+	text-indent: 2em;
+}
+#picture{
 	border: 1px solid;
-	margin: 10px;
-	height: 50px;
-	width: 40px;
+	margin: 20px;
+	height: 200px;
+	width: 300px;
+}
+#picture img{
+	height: 120px;
+	width: 200px;
+	margin-left: 50px;
+}
+#picture p{
+	text-align: center;
+}
+table{
+	width: 96%;
+	margin: 0px auto;
+	border: 1px solid #DDDDDD;
+	border-spacing: 0px;
+}
+th{
+	background-color: #333333;
+	color:white;
+}
+tr td{
+	border: 1px solid  #DCDCDC;
+	padding: 2px;
+}
+table .summary{
+	background-color: #CCCCCC;
+}
+.sidebar-content{
+	width: 90%;
+	text-align: center;
+	margin: 1px auto;
+}
+#sidebar h2{
+	font-family: "Microsoft Yahei"
+	margin-left: 10px;
+	border-left: 3px solid #C9C9C9;
+	font-size: 18px;
+
+}
+.inp{
+	line-height: 40px;
+}
+.submit{
+	width: 100%;
+	background-color:#3355D0;
+	border: none;
+	
+
 }
